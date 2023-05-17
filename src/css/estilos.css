@@ -1,0 +1,110 @@
+body{
+    font-family: 'poppins', verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(29, 216, 29);
+    color: black;
+    background-image: url(../imagens/Marcos.jpg) ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+}
+header{
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+header .logo, 
+header .imagem-botao{
+    width: 75px;
+    transition: 0.2s ease-in-out;
+}
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-jogadores:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+}
+main{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+main .listagem-jogadores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+main .cartao-jogadores{
+    background-color: #5a4fc0;
+    width: 270px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    }
+
+    main .cartao-jogadores:hover{
+        background-color: rgb(0, 255, 242);
+    }
+    main .cartao-jogadores .informacoes{
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid #333333;
+        border-radius: 5px;
+
+    }
+
+    main .cartao-jogadores .informacoes span{
+        background-color: orange;
+        padding: 6px;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    main .cartao-jogadores .gif{
+        width: 170px;
+        height: 170px;
+        background-color: grey;
+
+    }
+    main .cartao-jogadores .atributos{
+        display: flex;
+        gap: 8px
+        
+    }
+    main .cartao-jogadores .atributos{
+        padding: 5px;
+        border-radius: 20px;
+    }
+
+    .atributo-Resistencia{
+        background-color: rgb(238, 255, 0);
+    }
+    .atributo-velocidade{
+        background-color:darkgray
+    }
+    .atributo-Desarme{
+        background-color:chocolate
+    }
+    .atributo-Lideranca{
+        background-color:darkorchid
+    }
+    .atributo-criacao{
+        background-color: chartreuse;
+    }
+    .atributo-passe{
+        background-color:deepskyblue
+    }
+    .atributo-finalizacao{
+        background-color:darksalmon
+    }
